@@ -78,7 +78,7 @@ Traditional machine learning model trained using extracted heartbeat features:
 - RMS Value
 - Signal Energy
 
-### Evaluation Metrics
+#### Evaluation Metrics
 
 - Accuracy
 - Precision
@@ -90,7 +90,7 @@ Traditional machine learning model trained using extracted heartbeat features:
 
 Raw ECG beat windows of 400 samples are extracted around the annotated beats and normalized individually.
 
-### CNN Architecture
+#### CNN Architecture
 
 ```text
 Conv1D(16) → BatchNorm → ReLU → MaxPool
@@ -98,3 +98,18 @@ Conv1D(32) → BatchNorm → ReLU → MaxPool
 Conv1D(64) → BatchNorm → ReLU → MaxPool
 Flatten → Dense(128) → Dropout → Output(5 Classes)
 ```
+
+#### Target Classes
+
+- Normal
+- SVEB (Supraventricular Ectopic Beat)
+- VEB (Ventricular Ectopic Beat)
+- Fusion Beat
+- Unclassifiable
+
+#### Training Details
+
+- Adam Optimizer
+- Weighted Cross-Entropy Loss
+- GPU Supports (CUDA if available)
+- Reproducible Random Seed
