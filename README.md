@@ -121,3 +121,20 @@ Flatten → Dense(128) → Dropout → Output(5 Classes)
 - **Macro F1-Score:** 88.03%
 
 The CNN significantly improved minority class recognition compared to the Random Forest model.
+
+## Future Improvements
+
+- Test more in-depth architectures such as ResNet1D or CNN-LTSM.
+- Improve minority class recall.
+- Use patient-level train/test splits.
+- Build real-time ECG monitoring pipeline for hospitals.
+- Validate on external hospital datasets or new data.
+
+## License / Data
+
+Dataset usage is subject to PhysioNet licensing terms.
+
+Dataset Link: [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/)
+
+This repository is intended for educational coursework and research demonstration.
+```
