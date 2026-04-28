@@ -1,2 +1,2 @@
-# ECE525-ECG-Classification-Project
+## ECE525-ECG-Classification-Project
 
