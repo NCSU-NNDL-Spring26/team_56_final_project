@@ -42,3 +42,20 @@ cd ECG-Arrhythmia-Classification-Team-56
 pip install numpy pandas matplotlib scikit-learn torch wfdb
 ```
 
+### 3. Run the Models
+
+### Baseline Model (Random Forest)
+
+Open the notebook inside:
+
+'Baseline_Model/'
+
+Run all cells to reproduce Random Forest baseline model results.
+
+### Neural Network
+
+Navigate to:
+
+'Neural_Network/'
+
+Then run:
