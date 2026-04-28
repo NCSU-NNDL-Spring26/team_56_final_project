@@ -20,3 +20,7 @@ Create a reproducible pipeline from raw ECG waveform records to heartbeat classi
 
 |Folder / File | Description |
 |--------------|-------------|
+| 'data/data/' | MIT-BIH raw ECG signal files and annotations |
+| 'Baseline_Model/' | Random Forest Baseline Model |
+| 'Neural_Network/' | PyTorch CNN Implementation |
+| 'ReadME.md'  | Project Overview and Setup Instructions |
