@@ -24,3 +24,13 @@ Create a reproducible pipeline from raw ECG waveform records to heartbeat classi
 | 'Baseline_Model/' | Random Forest Baseline Model |
 | 'Neural_Network/' | PyTorch CNN Implementation |
 |  'ReadME.md' | Project Overview and Setup Instructions |
+
+---
+
+## Quick Start
+
+### 1. Clone Repository
+
+'''bash
+git clone <your-repo-url>
+cd ECG-Arrhythmia-Classification-Team-56
