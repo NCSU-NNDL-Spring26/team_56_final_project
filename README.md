@@ -63,3 +63,26 @@ Then run:
 ```bash
 python train.py
 ```
+
+## Methodology Review
+
+### Random Forest
+
+Traditional machine learning model trained using extracted heartbeat features:
+
+- Mean
+- Standard Deviation
+- Minimum Amplitude
+- Maximum Amplitude
+- Peak-to-Peak Range
+- RMS Value
+- Signal Energy
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
