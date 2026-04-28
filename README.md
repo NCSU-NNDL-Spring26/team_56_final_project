@@ -86,3 +86,15 @@ Traditional machine learning model trained using extracted heartbeat features:
 - F1-Score
 - Confusion Matrix
 
+### Neural Network Model (1D CNN)
+
+Raw ECG beat windows of 400 samples are extracted around the annotated beats and normalized individually.
+
+### CNN Architecture
+
+```text
+Conv1D(16) → BatchNorm → ReLU → MaxPool
+Conv1D(32) → BatchNorm → ReLU → MaxPool
+Conv1D(64) → BatchNorm → ReLU → MaxPool
+Flatten → Dense(128) → Dropout → Output(5 Classes)
+```
