@@ -113,3 +113,11 @@ Flatten → Dense(128) → Dropout → Output(5 Classes)
 - Weighted Cross-Entropy Loss
 - GPU Supports (CUDA if available)
 - Reproducible Random Seed
+
+## Current Neural Network Results
+
+- **Accuracy:** 97.62%
+- **Weighted F1-Score:** 97.78%
+- **Macro F1-Score:** 88.03%
+
+The CNN significantly improved minority class recognition compared to the Random Forest model.
