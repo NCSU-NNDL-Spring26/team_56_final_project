@@ -34,3 +34,8 @@ Create a reproducible pipeline from raw ECG waveform records to heartbeat classi
 ```bash
 git clone <your-repo-url>
 cd ECG-Arrhythmia-Classification-Team-56
+
+## 2. Install Dependencies
+
+```bash
+pip install numpy pandas matplotlib scikit-learn torch wfdb
