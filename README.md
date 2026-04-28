@@ -59,3 +59,7 @@ Navigate to:
 'Neural_Network/'
 
 Then run:
+
+```bash
+python train.py
+```
