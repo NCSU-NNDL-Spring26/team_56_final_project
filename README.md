@@ -6,4 +6,10 @@ Predicting cardiac arrhymias from electrocardiogram (ECG) heartbeat signals usin
 
 ---
 
-## Intent
+## Clinical Motivation
+
+Cardiovascular disease remains one of the leading causes of death worldwide. To help reduce mortality rates in patients, arrhythmias must be detected early. Using a neural network to detect early signs of arrhythmias can improve patient outcomes, reduce emergency cardiac events, and support clinicians through faster ECG interpretation. 
+
+## Technical Motivation
+
+Create a reproducible pipeline from raw ECG waveform records to heartbeat classification. Evaluate traditional machine learning baseline models (random forest) with a custom convolutional neural network (CNN), and evaluate results.
