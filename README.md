@@ -31,6 +31,6 @@ Create a reproducible pipeline from raw ECG waveform records to heartbeat classi
 
 ### 1. Clone Repository
 
-'''bash
+```bash
 git clone <your-repo-url>
 cd ECG-Arrhythmia-Classification-Team-56
