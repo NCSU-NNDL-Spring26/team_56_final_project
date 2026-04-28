@@ -119,6 +119,6 @@ License / Data
 
 Dataset usage is subject to PhysioNet licensing terms.
 
-Dataset Link: https://physionet.org/content/mitdb/
+Dataset Link: MIT-BIH Arrhythmia Database
 
 This repository is intended for educational coursework and research demonstration.
