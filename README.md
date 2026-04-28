@@ -12,4 +12,4 @@ Cardiovascular disease remains one of the leading causes of death worldwide. To 
 
 ## Technical Motivation
 
-Create a reproducible pipeline from raw ECG waveform records to heartbeat classification. Evaluate traditional machine learning baseline models (random forest) with a custom convolutional neural network (CNN), and evaluate results.
+Create a reproducible pipeline from raw ECG waveform records to heartbeat classification. Evaluate traditional machine learning baseline models (random forest) with a custom convolutional neural network (CNN), and evaluate the results using practices learned from this class.
